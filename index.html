@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="/style/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- APlayer CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css"/>
+
+    <title>Online music streaming website using html,css And javascript</title>
+ 	</head>
+	<body>
+
+<div class="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h3>New Releases</h3>
+			</div>
+			<div class="col-md-3">
+				<a href="#" class="album-poster" data-switch="0">
+					<img src="images/red.jpg" alt="red taylors version cover">
+				</a>
+				<h4>Red (Taylor's Version)</h4>
+				<p>Taylor Swift</p>
+				<p>Pop &bull; 2021</p>
+			</div>
+			<div class="col-md-3">
+				<a href="#" class="album-poster" data-switch="1">
+					<img src="images/sour.jpg" alt="sour cover">
+				</a>
+				<h4>SOUR</h4>
+				<p>Olivia Rodrigo</p>
+				<p>Pop &bull; 2021</p>
+			</div>
+			<div class="col-md-3">
+				<a href="#" class="album-poster" data-switch="2">
+					<img src="images/dreams.jpg" alt="ancient dreams in a modern land cover">
+				</a>
+				<h4>Ancient Dreams in a Modern Land</h4>
+				<p>Marina and the Diamonds</p>
+				<p>Pop &bull; 2022</p>
+			</div>
+
+			<div class="col-md-3">
+				<a href="#" class="album-poster" data-switch="3">
+					<img src="images/mitski.jpg" alt="laurel hell cover">
+				</a>
+				<h4>Laurel Hell</h4>
+				<p>Mitski</p>
+				<p>Alternative &bull; 2022</p>
+			</div>
+			<div class="col-md-3">
+				<a href="##" class="album-poster" data-switch="4">
+					<img src="images/dawn.jpg" alt="dawn fm cover">
+				</a>
+				<h4>Dawn FM</h4>
+				<p>The Weeknd</p>
+				<p>R&B &bull; 2022</p>
+			</div>
+			<div class="col-md-3">
+				<a href="##" class="album-poster" data-switch="5">
+					<img src="images/adele.png" alt="30 album cover">
+				</a>
+				<h4>30</h4>
+				<p>Adele</p>
+				<p>Pop &bull; 2021</p>
+			</div>
+			<div class="col-md-3">
+				<a href="##" class="album-poster" data-switch="6">
+					<img src="images/planet.jpg" alt="planet her cover">
+				</a>
+				<h4>Planet Her</h4>
+				<p>Doja Cat</p>
+				<p>Pop &bull; 2021</p>
+			</div>
+			<div class="col-md-3">
+				<a href="##" class="album-poster" data-switch="7">
+					<img src="images/coldplay.jpg" alt="Music of the Spheres cover">
+				</a>
+				<h4>Music of the Spheres</h4>
+				<p>Coldplay</p>
+				<p>Pop &bull; 2021</p>
+			</div>
+			
+		</div>
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Upcoming Releases</h3>
+			</div>
+			<div class="col-md-3">
+				<a href="#" class="album-poster">
+					<img src="images/crash.jpg" alt="crash cover">
+				</a>
+				<h4>CRASH</h4>
+				<p>Charli XCX</p>
+				<p>OUT MARCH 18TH 2022</p>
+			</div>
+			<div class="col-md-3">
+				<a href="#" class="album-poster">
+					<img src="images/love.jpg" alt="love sux cover">
+				</a>
+				<h4>Love Sux</h4>
+				<p>Avril Lavigne</p>
+				<p>OUT FEBRUARY 25TH 2022</p>
+			</div>
+			<div class="col-md-3">
+				<a href="#" class="album-poster">
+					<img src="images/MGC.jpg" alt="mainstream sellout cover">
+				</a>
+				<h4>mainstream sellout</h4>
+				<p>Machine Gun Kelly</p>
+				<p>OUT MARCH 25TH 2022</p>
+			</div>
+			
+			<div class="col-md-3">
+				<a href="#" class="album-poster">
+					<img src="images/flume.jpg" alt="palaces cover">
+				</a>
+				<h4>Palaces</h4>
+				<p>Flume</p>
+				<p>OUT MAY 20TH 2022</p>
+			</div>
+		</div>
+
+<div class="best-new">
+	<audio id="play" src="source/all-too-well.mp3"></audio>
+<div>
+	<button class="button-play" onclick="document.getElementById('play').play()"><Воспроизведение></button>
+	<button class="button-pause" onclick="document.getElementById('play').pause()">Пауза</button>
+	<button class="button-up" onclick="document.getElementById('play').volume+=0.1">Громкость +</button>
+	<button class="button-down" onclick="document.getElementById('play').volume-=0.1">Громкость -</button>
+</div>
+</div>
+	</div>
+</div>
+
+	<div id="aplayer"></div>
+	<!-- Jquery Link -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<!-- Bootstrap Link -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<!-- APlayer Jquery link -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>
+	<script src="/js/script.js"></script>
+	</body>
+</html>
